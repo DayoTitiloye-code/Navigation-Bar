@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+}
+.nav-toggle {
+  float: right;
+}
+.main-nav {
+  margin: 20px;
+}
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-links {
+  /* 0.625rem as links open are 10px (using inspect) */
+  height: 1.2rem;
+}
+body {
+  background-color: blueviolet;
+}
+nav {
+  background-color: darkgrey;
+}
